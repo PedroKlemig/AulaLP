@@ -18,6 +18,24 @@
         <label for="cep">CEP</label><br>
         <input type="text" id="cep" name="cep"><br>
 
+        
+        <label for="cidade">Cidade:</label>
+        <input list="cidades" id="cidade" name="cidade" required>
+        <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Porto Alegre">
+        </datalist><br><br>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select><br><br>
+
         <br>
         <br>
 
@@ -26,6 +44,20 @@
             <label for="masculino">Masculino</label><br>
             <input type="radio" id="feminino" name="genero" value="feminino">
             <label for="feminino">Feminino</label><br>
+        </form>
+        
+        <br>
+        <br>
+
+        <form>
+        <input type="checkbox" id="curso1" name="curso1" value="ADS">
+        <label for="curso1"> ADS</label><br>
+        <input type="checkbox" id="curso2" name="curso2" value="jogos">
+        <label for="curso2"> Jogos</label><br>
+        <input type="checkbox" id="curso3" name="curso3" value="gest">
+        <label for="curso3"> Gestao de TI</label><br>
+        <input type="checkbox" id="curso4" name="curso4" value="Banco">
+        <label for="banco"> Banco de Dados</label><br>
         </form>
         
         <br>
